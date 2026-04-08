@@ -200,7 +200,7 @@ p.slide-numbering {
   transform: translateX(-50%);
   color: rgb(150, 150, 150);
   font-size: 2.8em;
-  z-index: 2;
+  z-index: 12;
 }
 p.slide-numbering.white {
   color: var(--light-c);
@@ -1170,7 +1170,7 @@ p.slide-numbering.left {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 195em;
+  width: 185em;
   max-width: unset;
   max-height: unset;
   -webkit-mask-image: linear-gradient(to left, black 85%, transparent),
